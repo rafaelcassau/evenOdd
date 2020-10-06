@@ -1,4 +1,4 @@
-# evenOdd
+# jenkinsEvenOdd
 This is a simple Jenkins shared library example
 
 A Jenkins even/odd playbook from the Jenkins.io documentation
