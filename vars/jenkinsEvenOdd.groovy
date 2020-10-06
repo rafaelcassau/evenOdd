@@ -19,15 +19,14 @@ def call(int buildNumber) {
         }
     } else {
         pipeline {
-            agent any {
+            agent any
                 stages {
-                    stage('Odd Stage') {
-                        steps {
-                            echo "The build number is odd"
-                            script {
-                                log.info 'Starting odd build'
-                                log.warnning 'Nothing to do!'
-                            }
+                stage('Odd Stage') {
+                    steps {
+                        echo "The build number is odd"
+                        script {
+                            log.info 'Starting odd build'
+                            log.warnning 'Nothing to do!'
                         }
                     }
                 }
