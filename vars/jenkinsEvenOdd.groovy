@@ -26,7 +26,7 @@ def call(int buildNumber) {
                         echo "The build number is odd"
                         script {
                             log.info 'Starting odd build'
-                            log.warnning 'Nothing to do!'
+                            log.warning 'Nothing to do!'
                         }
                     }
                 }
